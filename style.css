@@ -1,0 +1,17 @@
+:root {
+  --font-header: "Playfair Display", serif;
+  --font-p: "Roboto", sans-serif;
+  --clr-primary-1: lightgray;
+  --clr-primary-2: blue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-primary-1);
+  font-family: var(--font-p);
+}
