@@ -8,6 +8,10 @@ header {
 }
 /* ######### temp end! */
 
+.carousel-header {  
+  text-shadow: 2px 2px 5px var(--clr-primary-middle-dark);
+}
+
 .carousel-inner {  
   box-shadow: 5px 5px 20px var(--clr-primary-dark);
 }
