@@ -1,8 +1,20 @@
 :root {
   --font-header: "Playfair Display", serif;
   --font-p: "Roboto", sans-serif;
-  --clr-primary-1: lightgray;
-  --clr-primary-2: blue;
+  /* --clr-primary-1: rgba(33, 37, 41, 1);
+  --clr-primary-2: rgb(131, 186, 241); */
+  --clr-primary-light: rgb(219, 250, 167, .1);
+  --clr-primary-light-middle: rgb(120, 150, 87, .2);
+  --clr-primary-middle: rgb(82, 78, 29, .7);
+  --clr-primary-middle-dark: rgb(62, 62, 25, .75);
+  --clr-primary-dark: rgb(42, 48, 9, .85);
+  
+  /* different color-scheme */
+  /* --clr-primary-light: rgb(249, 250, 217, .1);
+  --clr-primary-light-middle: rgb(150, 150, 137, .2);
+  --clr-primary-middle: rgb(112, 78, 79, .7);
+  --clr-primary-middle-dark: rgb(92, 62, 75, .7);
+  --clr-primary-dark: rgb(72, 48, 59, .9); */
 }
 
 * {
@@ -11,7 +23,31 @@
   padding: 0;
 }
 
+.bg-dark {
+  /* background: var(--clr-primary-1) !important; */
+}
+
+.color-light {
+  background: var(--clr-primary-light);
+}
+
+.color-light-middle {
+  background: var(--clr-primary-light-middle);
+}
+
+.color-middle {
+  background: var(--clr-primary-middle);
+}
+
+.color-middle-dark {
+  background: var(--clr-primary-middle-dark);
+}
+
+.color-dark {
+  background: var(--clr-primary-dark);
+}
+
 body {
-  background: var(--clr-primary-1);
+  background: var(--clr-primary-light);
   font-family: var(--font-header);
 }
