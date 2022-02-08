@@ -13,5 +13,5 @@
 
 body {
   background: var(--clr-primary-1);
-  font-family: var(--font-p);
+  font-family: var(--font-header);
 }

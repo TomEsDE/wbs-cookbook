@@ -1,0 +1,39 @@
+/* ######### temp anfang! */
+* {
+  /* border: 1px solid red; */
+}
+
+header {
+  height: 10rem;
+}
+/* ######### temp end! */
+
+.carousel-item img {
+  /* height: calc(50vw); */
+  height: 40vw;
+  max-height: 25rem;
+  min-height: 15rem;
+  object-fit: cover;
+}
+
+.card {
+  min-width: 11rem;
+}
+
+.card-img-top {
+  height: 20vw;
+  max-height: 16rem;
+  min-height: 10rem;
+  object-fit: cover;
+}
+/* 
+.carousel-img-landscape {
+  object-fit: cover;
+  object-fit: contain;
+}
+
+.carousel-img-portrait {
+  object-fit: cover;
+  max-height: 300px;
+} 
+*/
