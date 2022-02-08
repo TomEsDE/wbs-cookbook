@@ -8,6 +8,10 @@ header {
 }
 /* ######### temp end! */
 
+.carousel-inner {  
+  box-shadow: 5px 5px 20px var(--clr-primary-dark);
+}
+
 .carousel-item img {
   /* height: calc(50vw); */
   height: 40vw;
@@ -18,6 +22,18 @@ header {
 
 .card {
   min-width: 11rem;
+  box-shadow: 5px 5px 20px var(--clr-primary-dark);
+}
+
+.card-header {
+  /* background: var(--clr-primary-dark); */
+  background: linear-gradient(to left top, var(--clr-primary-middle), var(--clr-primary-dark));
+}
+
+.carousel-outer {  
+  /* background: linear-gradient(to left top, #501616, #140f3d); */
+  background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
+  /* background: linear-gradient(to left top, var(--clr-primary-dark), var(--clr-primary-light-middle)); */
 }
 
 .card-img-top {
