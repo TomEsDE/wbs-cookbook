@@ -18,18 +18,27 @@
 }
 
 #recipe-icons {
-  font-family: sans-serif;
+  font-family: var(--font-p);
   display: inline-block;
 }
 
 
 .accordion-button:not(.collapsed) {
   color: white;
-  background-color: rgba(47, 79, 79, 0.384);
+  background-color: rgba(72, 48, 59, 0.555);
   
 }
 
 .accordion-button:focus {
   box-shadow: none;
   border-color: rgba(0,0,0,.125);
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: transparent;
+}
+
+body {
+  background-color: var(--clr-primary-light);
 }
