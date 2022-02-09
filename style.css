@@ -87,8 +87,10 @@ footer svg {
   margin: 0.5rem;
 color: white;} 
 
-footer p{color: white;
-font-family: "Roboto", sans-serif;}
+footer p {
+  color: white;
+  font-family: var(--font-roboto);
+}
 
 /* Styling Lydia End */
 
