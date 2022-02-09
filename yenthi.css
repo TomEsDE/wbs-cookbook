@@ -1,0 +1,44 @@
+:root {
+  --font-header: "Playfair Display", serif;
+  --font-p: "Roboto", sans-serif;
+  /* --clr-primary-1: rgba(33, 37, 41, 1);
+    --clr-primary-2: rgb(131, 186, 241); */
+  --clr-primary-light: rgb(219, 250, 167, 0.1);
+  --clr-primary-light-middle: rgb(120, 150, 87, 0.2);
+  --clr-primary-middle: rgb(82, 78, 29, 0.7);
+  --clr-primary-middle-dark: rgb(62, 62, 25, 0.75);
+  --clr-primary-dark: rgb(42, 48, 9, 0.85);
+
+  /* different color-scheme */
+  --clr-primary-light: rgb(249, 250, 217, 0.1);
+  --clr-primary-light-middle: rgb(150, 150, 137, 0.2);
+  --clr-primary-middle: rgb(112, 78, 79, 0.7);
+  --clr-primary-middle-dark: rgb(92, 62, 75, 0.7);
+  --clr-primary-dark: rgb(72, 48, 59, 0.9);
+}
+
+#recipe-icons {
+  font-family: var(--font-p);
+  display: inline-block;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(72, 48, 59, 0.555);
+  
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: transparent;
+}
+
+body {
+  background-color: var(--clr-primary-light);
+}
