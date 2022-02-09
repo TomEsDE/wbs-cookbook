@@ -1,13 +1,8 @@
 :root {
   --font-playfair: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
-  
-  /* "dark-green" color-scheme */
-  /* --clr-primary-light:        rgb(219, 250, 167, .1);
-  --clr-primary-light-middle: rgb(120, 150, 87, .2);
-  --clr-primary-middle:       rgb(82, 78, 29, .7);
-  --clr-primary-middle-dark:  rgb(62, 62, 25, .75);
-  --clr-primary-dark:         rgb(42, 48, 9, .85); */
+
+  /* !! >> folder './color-schemes' */
   
   /* "gray-rose" color-scheme */
   --clr-primary-light:        rgb(249, 250, 217, .1);
@@ -15,27 +10,6 @@
   --clr-primary-middle:       rgb(142, 78, 79, .7);
   --clr-primary-middle-dark:  rgb(102, 62, 75, .7);
   --clr-primary-dark:         rgb(72, 48, 59, .9);
-
-  /* "green-ish" color-scheme */
-  /* --clr-primary-light:        rgb(49, 250, 17, .1);
-  --clr-primary-light-middle: rgb(50, 150, 37, .2);
-  --clr-primary-middle:       rgb(12, 78, 9, .7);
-  --clr-primary-middle-dark:  rgb(2, 62, 5, .7);
-  --clr-primary-dark:         rgb(2, 48, 9, .9);  */
-
-  /* "blue-ish" color-scheme  */
-  /* --clr-primary-light:        rgb(15, 50, 217, .1);
-  --clr-primary-light-middle: rgb(70, 50, 137, .2);
-  --clr-primary-middle:       rgb(32, 8, 79, .7);
-  --clr-primary-middle-dark:  rgb(12, 2, 75, .75);
-  --clr-primary-dark:         rgb(2, 8, 59, .85); */
-
-  /* "red-ish" color-scheme */
-  /* --clr-primary-light:        rgb(249, 100, 180, .1);
-  --clr-primary-light-middle: rgb(210, 80, 140, .2);
-  --clr-primary-middle:       rgb(172, 60, 100, .7);
-  --clr-primary-middle-dark:  rgb(142, 40, 60, .7);
-  --clr-primary-dark:         rgb(112, 20, 20, .9); */
 }
 
 * {

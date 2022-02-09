@@ -8,6 +8,13 @@ header {
 }
 /* ######### temp end! */
 
+.section-carousel {  
+  /* background: linear-gradient(to left top, #501616, #140f3d); */
+  background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
+  /* background: linear-gradient(to left top, var(--clr-primary-dark), var(--clr-primary-light-middle)); */
+  padding: 0;
+}
+
 .carousel-header {  
   text-shadow: 2px 2px 5px var(--clr-primary-middle-dark);
 }
@@ -31,7 +38,11 @@ header {
 }
 
 .card:hover {
-  opacity: .85;
+  opacity: .9;
+  box-shadow: 5px 5px 20px var(--clr-primary-middle);
+  filter: brightness(120%);
+  filter: contrast(120%);
+  transition: all .2s ease-in;
   /* border: solid var(--clr-primary-dark);
   border-radius: 8px; */
 }
@@ -43,12 +54,6 @@ header {
 .card-header {
   /* background: var(--clr-primary-dark); */
   background: linear-gradient(to left top, var(--clr-primary-middle), var(--clr-primary-dark));
-}
-
-.carousel-outer {  
-  /* background: linear-gradient(to left top, #501616, #140f3d); */
-  background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
-  /* background: linear-gradient(to left top, var(--clr-primary-dark), var(--clr-primary-light-middle)); */
 }
 
 .btn {

@@ -1,0 +1,8 @@
+:root {
+  /* "dark-green" color-scheme */
+  --clr-primary-light:        rgb(219, 250, 167, .1);
+  --clr-primary-light-middle: rgb(120, 150, 87, .2);
+  --clr-primary-middle:       rgb(82, 78, 29, .7);
+  --clr-primary-middle-dark:  rgb(62, 62, 25, .75);
+  --clr-primary-dark:         rgb(42, 48, 9, .85);
+}
