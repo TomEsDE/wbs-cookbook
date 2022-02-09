@@ -1,0 +1,8 @@
+:root {
+  /* "green-ish" color-scheme */
+  --clr-primary-light: rgb(49, 250, 17, 0.1);
+  --clr-primary-light-middle: rgb(50, 150, 37, 0.2);
+  --clr-primary-middle: rgb(12, 78, 9, 0.7);
+  --clr-primary-middle-dark: rgb(2, 62, 5, 0.7);
+  --clr-primary-dark: rgb(2, 48, 9, 0.9);
+}

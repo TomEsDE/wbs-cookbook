@@ -1,0 +1,7 @@
+:root {
+  /* "red-ish" color-scheme */
+  --clr-primary-light:        rgb(249, 100, 180, .1);
+  --clr-primary-light-middle: rgb(210, 80, 140, .2);
+  --clr-primary-middle:       rgb(172, 60, 100, .7);
+  --clr-primary-middle-dark:  rgb(142, 40, 60, .7);
+  --clr-primary-dark:         rgb(112, 20, 20, .9);

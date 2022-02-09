@@ -1,0 +1,8 @@
+:root {
+  /* "blue-ish" color-scheme */
+  --clr-primary-light:        rgb(15, 50, 217, .1);
+  --clr-primary-light-middle: rgb(70, 50, 137, .2);
+  --clr-primary-middle:       rgb(32, 8, 79, .7);
+  --clr-primary-middle-dark:  rgb(12, 2, 75, .75);
+  --clr-primary-dark:         rgb(2, 8, 59, .85);
+}
