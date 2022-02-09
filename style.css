@@ -2,7 +2,7 @@
   --font-playfair: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
 
-  /* !! >> folder './color-schemes' */
+  /* ! >> folder './color-schemes' */
   
   /* "gray-rose" color-scheme */
   --clr-primary-light:        rgb(249, 250, 217, .1);
@@ -71,6 +71,23 @@ body {
   font-family: var(--font-playfair);
 }
 
+/* Styling Lydia Start */
 .flex-wrapper {
   min-height: calc(100vh - 56px);
 }
+
+footer > div.row > div > img {
+  height: 50px;
+  width: auto;
+}
+
+footer svg {
+  height: 1.25rem;
+  width: auto;
+  margin: 0.5rem;
+color: white;} 
+
+footer p{color: white;
+font-family: "Roboto", sans-serif;}
+
+/* Styling Lydia End */
