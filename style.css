@@ -70,3 +70,7 @@ body {
   background: var(--clr-primary-light);
   font-family: var(--font-playfair);
 }
+
+.flex-wrapper {
+  min-height: calc(100vh - 56px);
+}
