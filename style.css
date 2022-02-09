@@ -89,9 +89,13 @@ color: white;}
 
 footer p {
   color: white;
-  font-family: var(--font-roboto);
+  font-family: var(--font-playfair);
 }
 
+footer p.h4 {
+  font-family: var(--font-roboto);
+  font-weight: bold;
+}
 /* Styling Lydia End */
 
 

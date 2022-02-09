@@ -40,9 +40,9 @@
       <nav class="container-fluid navbar navbar-dark bg-dark">
         <a class="navbar-brand text-light fs-1" href="#">FoodMasters</a>
         <!-- Search Bar -->
-        <div class="d-flex flex-row">
+        <div class="d-flex flex-row font-h">
           <div class="mx-3">
-            <form class="form-inline flex-row d-flex">
+            <form class="form-inline flex-row d-flex d-none d-md-block">
               <input
                 class="form-control mr-sm-2"
                 type="search"
@@ -63,6 +63,15 @@
           <button class="btn btn-outline-success my-sm-0">Login</button>
         </div>
       </nav>
+      <form class="form-inline flex-row d-flex d-block d-md-none">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </form>
+      
     </header>
 
     <!-- ! ####### flex-wrapper um footer auch bei wenig Content am unteren Rand anzuzeigen (wie von Martin gezeigt) -->
@@ -155,9 +164,9 @@
                 </div>
                 <img class="card-img-top" src="img/recipe-pizza-1.webp" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title fw-bolder">Recipe 1</h5>
-                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <div class="d-flex justify-content-start">
+                  <h5 class="card-title fw-bold font-h">Recipe 1</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-center">
                     <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
                   </div>
                 </div>
@@ -175,8 +184,8 @@
                 </div>
                 <img class="card-img-top" src="img/Peanut-Tofu-Noodle-Bowl-V1.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Recipe 2</h5>
-                  <p class="card-text text-color-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title fw-bold font-h">Recipe 2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <div class="d-flex justify-content-center">
                     <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
                   </div>
@@ -216,9 +225,9 @@
                 </div>
                 <img class="card-img-top" src="img/recipe-pizza-1.webp" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Recipe 4</h5>
+                  <h5 class="card-title fw-bold font-h">Recipe 4</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <div class="d-flex justify-content-end">
+                  <div class="d-flex justify-content-center">
                     <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
                   </div>
                 </div>
