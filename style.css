@@ -1,21 +1,98 @@
 :root {
-    --font-header: "Playfair Display", serif;
-    --font-p: "Roboto", sans-serif;
-    /* --clr-primary-1: rgba(33, 37, 41, 1);
-      --clr-primary-2: rgb(131, 186, 241); */
-    --clr-primary-light: rgb(219, 250, 167, 0.1);
-    --clr-primary-light-middle: rgb(120, 150, 87, 0.2);
-    --clr-primary-middle: rgb(82, 78, 29, 0.7);
-    --clr-primary-middle-dark: rgb(62, 62, 25, 0.75);
-    --clr-primary-dark: rgb(42, 48, 9, 0.85);
+  --font-playfair: "Playfair Display", serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  /* ! >> folder './color-schemes' */
   
-    /* different color-scheme */
-    --clr-primary-light: rgb(249, 250, 217, 0.1);
-    --clr-primary-light-middle: rgb(150, 150, 137, 0.2);
-    --clr-primary-middle: rgb(112, 78, 79, 0.7);
-    --clr-primary-middle-dark: rgb(92, 62, 75, 0.7);
-    --clr-primary-dark: rgb(72, 48, 59, 0.9);
-  }
+  /* "gray-rose" color-scheme */
+  --clr-primary-light:        rgb(249, 250, 217, .1);
+  --clr-primary-light-middle: rgb(190, 150, 137, .2);
+  --clr-primary-middle:       rgb(142, 78, 79, .7);
+  --clr-primary-middle-dark:  rgb(102, 62, 75, .7);
+  --clr-primary-dark:         rgb(72, 48, 59, .9);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.color-light {
+  background: var(--clr-primary-light);
+}
+
+.color-light-middle {
+  background: var(--clr-primary-light-middle);
+}
+
+.color-middle {
+  background: var(--clr-primary-middle);
+}
+
+.color-middle-dark {
+  background: var(--clr-primary-middle-dark);
+}
+
+.color-dark {
+  background: var(--clr-primary-dark);
+}
+
+.text-color-light {
+  color: var(--clr-primary-light);
+}
+
+.text-color-light-middle {
+  color: var(--clr-primary-light-middle);
+}
+
+.text-color-middle {
+  color: var(--clr-primary-middle);
+}
+
+.text-color-middle-dark {
+  color: var(--clr-primary-middle-dark);
+}
+
+.text-color-dark {
+  color: var(--clr-primary-dark);
+}
+
+.font-h {
+  font-family: var(--font-roboto);
+}
+
+.font-p {
+  font-family: var(--font-playfair);
+}
+
+body {
+  background: var(--clr-primary-light);
+  font-family: var(--font-playfair);
+}
+
+/* Styling Lydia Start */
+.flex-wrapper {
+  min-height: calc(100vh - 56px);
+}
+
+footer > div.row > div > img {
+  height: 50px;
+  width: auto;
+}
+
+footer svg {
+  height: 1.25rem;
+  width: auto;
+  margin: 0.5rem;
+color: white;} 
+
+footer p{color: white;
+font-family: "Roboto", sans-serif;}
+
+/* Styling Lydia End */
+
+
   
   /* Yen-Thi */
   #recipe-icons {

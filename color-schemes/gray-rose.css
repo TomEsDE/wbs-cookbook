@@ -1,0 +1,8 @@
+:root {
+  /* "gray-rosé" color-scheme */
+  --clr-primary-light:        rgb(249, 250, 217, .1);
+  --clr-primary-light-middle: rgb(190, 150, 137, .2);
+  --clr-primary-middle:       rgb(142, 78, 79, .7);
+  --clr-primary-middle-dark:  rgb(102, 62, 75, .7);
+  --clr-primary-dark:         rgb(72, 48, 59, .9);
+}

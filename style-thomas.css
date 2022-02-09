@@ -1,0 +1,83 @@
+/* ######### temp anfang! */
+* {
+  border: 0px solid red;
+}
+/* ######### temp end! */
+
+.carousel-section {  
+  /* background: linear-gradient(to left top, #501616, #140f3d); */
+  background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
+  /* background: linear-gradient(to left top, var(--clr-primary-dark), var(--clr-primary-light-middle)); */
+  padding: 0;
+}
+
+.carousel-header {  
+  text-shadow: 2px 2px 5px var(--clr-primary-middle-dark);
+}
+
+.carousel-inner {  
+  box-shadow: 5px 5px 20px var(--clr-primary-dark);
+}
+
+.carousel-item img {
+  /* height: calc(50vw); */
+  height: 40vw;
+  max-height: 25rem;
+  min-height: 15rem;
+  object-fit: cover;
+}
+
+.card-col {
+  /* min-width: 11rem; */
+  min-width: 13rem;
+  max-width: 18rem;
+}
+
+.card:hover {
+  opacity: .9;
+  box-shadow: 5px 5px 20px var(--clr-primary-middle);
+  filter: brightness(120%);
+  filter: contrast(120%);
+  transition: all .2s ease-in;
+  /* border: solid var(--clr-primary-dark);
+  border-radius: 8px; */
+}
+
+.card {
+  box-shadow: 5px 5px 20px var(--clr-primary-dark);
+}
+
+.card-header {
+  /* background: var(--clr-primary-dark); */
+  background: linear-gradient(to left top, var(--clr-primary-middle), var(--clr-primary-dark));
+}
+
+.btn {
+  /* background: var(--clr-primary-middle-dark); */
+  border: solid white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  /* background: var(--clr-primary-middle-dark); */
+  border: solid var(--clr-primary-dark);
+  border-radius: 5px;
+}
+
+.card-img-top {
+  height: 20vw;
+  max-height: 16rem;
+  min-height: 10rem;
+  object-fit: cover;
+}
+/* 
+.carousel-img-landscape {
+  object-fit: cover;
+  object-fit: contain;
+}
+
+.carousel-img-portrait {
+  object-fit: cover;
+  max-height: 300px;
+} 
+*/
