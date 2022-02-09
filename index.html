@@ -13,12 +13,38 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleLydia.css">
+    <link rel="stylesheet" href="styleChris.css" />
   </head>
   <body>
     <!-- Navbar -->
     <header>
-      <nav>Bootstrap Navbar</nav>
+      <!-- Brand -->
+      <nav class="container-fluid navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-light fs-1" href="#">FoodMasters</a>
+        <!-- Search Bar -->
+        <div class="d-flex flex-row">
+          <div class="mx-3">
+            <form class="form-inline flex-row d-flex">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <!-- Nav-links -->
+            <div
+              class="navbar-nav text-align-center d-flex flex-row fw-bold fs-3"
+            >
+              <a href="" class="nav-item nav-link mx-1">Home</a>
+              <a href="" class="nav-item nav-link mx-1">Recepies</a>
+              <a href="" class="nav-item nav-link mx-1">Blog</a>
+              <a href="" class="nav-item nav-link mx-1">Favourites</a>
+            </div>
+          </div>
+          <button class="btn btn-outline-success my-sm-0">Login</button>
+        </div>
+      </nav>
     </header>
 
     <!-- Main Content -->
