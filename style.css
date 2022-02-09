@@ -96,3 +96,22 @@ body {
   background: var(--clr-primary-light);
   font-family: var(--font-playfair);
 }
+
+/* Styling Lydia Start */
+
+footer > div.row > div > img {
+  height: 50px;
+  width: auto;
+}
+
+
+footer svg {
+  height: 1.25rem;
+  width: auto;
+  margin: 0.5rem;
+color: white;} 
+
+footer p{color: white;
+font-family: "Roboto", sans-serif;}
+
+/* Styling Lydia End */
