@@ -24,8 +24,19 @@ header {
   object-fit: cover;
 }
 
+.card-col {
+  /* min-width: 11rem; */
+  min-width: 13rem;
+  max-width: 18rem;
+}
+
+.card:hover {
+  opacity: .85;
+  /* border: solid var(--clr-primary-dark);
+  border-radius: 8px; */
+}
+
 .card {
-  min-width: 11rem;
   box-shadow: 5px 5px 20px var(--clr-primary-dark);
 }
 
@@ -38,6 +49,18 @@ header {
   /* background: linear-gradient(to left top, #501616, #140f3d); */
   background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
   /* background: linear-gradient(to left top, var(--clr-primary-dark), var(--clr-primary-light-middle)); */
+}
+
+.btn {
+  /* background: var(--clr-primary-middle-dark); */
+  border: solid white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  /* background: var(--clr-primary-middle-dark); */
+  border: solid var(--clr-primary-dark);
+  border-radius: 5px;
 }
 
 .card-img-top {

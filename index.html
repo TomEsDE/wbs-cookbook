@@ -31,7 +31,8 @@
     <link rel="stylesheet" href="style-thomas.css" />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- ######################## -->
+    <!-- ######## Navbar -->
     <header class="sticky-top">
       <!-- temp navbar copied from bootstrap -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -72,15 +73,17 @@
       </nav>
     </header>
 
-    <!-- Main Content -->
+    <!-- ######################## -->
+    <!-- ######## Main Content -->
     <!-- <div class="container-fluid"> -->
     <div class="container mt-3">
-      <!-- Meet the Team Section -->
+
+      <!-- ######## Carousel Header -->
       <div class="carousel-outer px-sm-2 px-md-3 rounded">
         <div class="row">
           <div class="col">
-            <h2 class="carousel-header text-white text-center display-3 mt-4 mx-2 mb-2 mb-md-0">Our latest Recipes</h2>
-            <p class="text-white text-center fst-italic d-none d-md-block">Some representative placeholder content for the second slide.</p>
+            <h2 class="carousel-header font-p text-white text-center display-3 mt-4 mx-2 mb-2 mb-md-0">Cookbook 2.0</h2>
+            <p class="text-white text-center fst-italic d-none d-md-block">Some representative placeholder content for the description</p>
           </div>
         </div>
   
@@ -131,21 +134,29 @@
         </div>
       </div>
 
+      <!-- ######## Card Header  -->
+      <div class="row">
+        <div class="col">
+          <h2 class="font-p text-color-dark text-center display-5 mx-2 mt-3 mt-md-5">Our latest Recipes</h2>
+          <p class="text-center fst-italic d-none d-md-block">Some representative placeholder content for the description</p>
+        </div>
+      </div>
+
       <!-- ###################### -->
       <!-- ######## Recipe Cards  -->
-      <div class="row justify-content-center my-3">
+      <div class="row justify-content-center mb-2">
         <!-- card-1 -->
-        <div class="col col-sm-6 col-lg-3 py-2">
-          <div class="card-header text-white d-flex align-items-end justify-content-between">            
-            <div style="margin: 0 0 0.1rem .4rem">Italian</div><div><i class="fa fa-pizza-slice"></i></div> 
-          </div>
+        <div class="card-col col-8 col-sm-6 col-lg-3 py-2">
           <div class="card">
+            <div class="card-header text-white d-flex align-items-end justify-content-between">            
+              <div style="margin: 0 0 0.1rem .4rem">Italian</div><div><i class="fa fa-pizza-slice"></i></div> 
+            </div>
             <img class="card-img-top" src="img/recipe-pizza-1.webp" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Recipe 1</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="d-flex justify-content-center">
-                <a href="recipe-template.html" class="btn btn-dark">Go somewhere</a>
+              <h5 class="card-title fw-bolder">Recipe 1</h5>
+              <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-start">
+                <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
               </div>
             </div>
             <div class="card-footer text-muted color-light-middle d-flex align-items-end">
@@ -155,17 +166,17 @@
         </div>
         
         <!-- card-2 -->
-        <div class="col col-sm-6 col-lg-3 py-2">
-          <div class="card-header text-white d-flex align-items-end justify-content-between">            
-            <div style="margin: 0 0 0.1rem .4rem">Asian</div><div><i class="fa fa-utensils"></i></div>             
-          </div>
+        <div class="card-col col-8 col-sm-6 col-lg-3 py-2">
           <div class="card">
+            <div class="card-header text-white d-flex align-items-end justify-content-between">            
+              <div style="margin: 0 0 0.1rem .4rem">Asian</div><div><i class="fa fa-utensils"></i></div>             
+            </div>
             <img class="card-img-top" src="img/Peanut-Tofu-Noodle-Bowl-V1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Recipe 2</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text-color-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <div class="d-flex justify-content-center">
-                <a href="recipe-template.html" class="btn btn-dark">Go somewhere</a>
+                <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
               </div>
             </div>
             <div class="card-footer text-muted color-light-middle d-flex align-items-end">
@@ -175,18 +186,18 @@
         </div>
         
         <!-- card-3 -->
-        <div class="col col-sm-6 col-lg-3 py-2">
-          <div class="card-header text-white d-flex align-items-end justify-content-between">            
-            <!-- <div style="margin: 0 0 0.1rem .4rem">Desert</div><div><i class="fa fa-cookie"></i></div>             -->
-            <div style="margin: 0 0 0.1rem .4rem">Desert</div><div><i class="fa fa-cheese"></i></div>            
-          </div>
+        <div class="card-col col-8 col-sm-6 col-lg-3 py-2">
           <div class="card">
+            <div class="card-header text-white d-flex align-items-end justify-content-between">            
+              <!-- <div style="margin: 0 0 0.1rem .4rem">Desert</div><div><i class="fa fa-cookie"></i></div>             -->
+              <div style="margin: 0 0 0.1rem .4rem">Desert</div><div><i class="fa fa-cheese"></i></div>            
+            </div>
             <img class="card-img-top" src="img/SpringBeetCake_RECIPE_v2_031821_11085.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Recipe 3</h5>
+              <h5 class="card-title fw-bold font-h">Recipe 3</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <div class="d-flex justify-content-center">
-                <a href="recipe-template.html" class="btn btn-dark">Go somewhere</a>
+                <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
               </div>
             </div>
             <div class="card-footer text-muted color-light-middle d-flex align-items-end">
@@ -196,17 +207,17 @@
         </div>
         
         <!-- card-4 -->
-        <div class="col col-sm-6 col-lg-3 py-2">
-          <div class="card-header text-white d-flex align-items-end justify-content-between">            
-            <div style="margin: 0 0 0.1rem .4rem">Italian</div><div><i class="fa fa-pizza-slice"></i></div> 
-          </div>
+        <div class="card-col col-8 col-sm-6 col-lg-3 py-2">
           <div class="card">
+            <div class="card-header text-white d-flex align-items-end justify-content-between">            
+              <div style="margin: 0 0 0.1rem .4rem">Italian</div><div><i class="fa fa-pizza-slice"></i></div> 
+            </div>
             <img class="card-img-top" src="img/recipe-pizza-1.webp" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Recipe 4</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="d-flex justify-content-center">
-                <a href="recipe-template.html" class="btn btn-dark">Go somewhere</a>
+              <div class="d-flex justify-content-end">
+                <a href="recipe-template.html" class="btn color-dark text-white">Go somewhere</a>
               </div>
             </div>
             <div class="card-footer text-muted color-light-middle d-flex align-items-end">
