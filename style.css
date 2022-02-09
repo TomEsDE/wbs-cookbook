@@ -44,10 +44,6 @@
   padding: 0;
 }
 
-.bg-dark {
-  /* background: var(--clr-primary-1) !important; */
-}
-
 .color-light {
   background: var(--clr-primary-light);
 }
