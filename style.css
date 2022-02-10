@@ -102,14 +102,14 @@ footer p.h4 {
   
   /* Yen-Thi */
   #recipe-icons {
-    font-family: var(--font-p);
+    font-family: var(--font-roboto);
     display: inline-block;
   }
   
   
   .accordion-button:not(.collapsed) {
     color: white;
-    background-color: rgba(72, 48, 59, 0.555);
+    background-color: rgba(67, 138, 56, 0.808);
     
   }
   
@@ -121,4 +121,13 @@ footer p.h4 {
   .accordion-item,
   .accordion-button {
     background-color: transparent;
+  }
+
+  table, 
+  #accordion {
+      font-family: var(--font-roboto);
+  }
+
+  .recipe-title {
+      letter-spacing: .1em;
   }
