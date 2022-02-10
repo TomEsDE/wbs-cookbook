@@ -5,14 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe-Template- Gruppe 2</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    
+    <!-- boostrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- custom -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-thomas.css" />
     <!-- ! color-scheme -->
     <link rel="stylesheet" href="color-schemes/green-1.css">
 
@@ -58,6 +74,25 @@
       </form>
       
     </header>
+      
+    <!-- ######################## -->
+    <!-- # Color Scheme Selection -->
+    <section class="color-section container-fluid color-light p-3 sticky-top">
+      <div class="row">
+        <div class="col-1 col-sm-4 col-md-6 col-lg-8">
+        </div>
+        <div class="col-11 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-evenly">
+          <div class="pt-1">choose a scheme</div>
+          <a href="javascript:changeColor('red-1')" class="color-scheme scheme-red"></a>
+          <a href="javascript:changeColor('green-1')" class="color-scheme scheme-green"></a>
+          <a href="javascript:changeColor('dark-green')" class="color-scheme scheme-darkgreen"></a>
+          <a href="javascript:changeColor('blue-1')" class="color-scheme scheme-blue"></a>
+          <a href="javascript:changeColor('gray-rose')" class="color-scheme scheme-gray"></a>
+        </div>
+        <div class="col-0">
+        </div>
+      </div>
+    </section>
 
     <!-- Main Content -->
     <div class="container pt-4 pb-3">
@@ -309,5 +344,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
