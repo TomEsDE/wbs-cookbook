@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="yenthi.css" />
+    <!-- <link rel="stylesheet" href="color-schemes/blue-1.css" /> -->
 
   </head>
   <body>
@@ -27,45 +27,50 @@
 
     <!-- Main Content -->
     <div class="container pt-4 pb-3">
+      <div class="row text-center">
+        <div class="col pt-2 pb-2">
+          <h3 class="recipe-title">Vegan Waffles</h3>
+        </div>
+      </div>
       <!-- Icons -->
       <div class="row text-center">
-          <div class="col-md-1 col-lg-2"></div>
-          <div class="col-6 col-md-2 col-lg-2">
+          <div class="col-md-1 col-xl-2"></div>
+          <div class="col-6 col-md-2 col-xl-2">
             <span>
               <i class="fas fa-clock">&nbsp;<p id="recipe-icons">45 mins</p></i>
             </span>
           </div>
-          <div class="col-6 col-md-2 col-lg-2">
+          <div class="col-6 col-md-2 col-xl-2">
             <span>
               <i class="fas fa-seedling">&nbsp;<p id="recipe-icons">vegan</p></i>
             </span>
           </div>
-          <div class="col-6 col-md-3 col-lg-2">
+          <div class="col-6 col-md-3 col-xl-2">
             <span>
               <i class="fas fa-sort-amount-up">&nbsp;<p id="recipe-icons">easy</p></i>
             </span>
           </div>
-          <div class="col-6 col-md-3 col-lg-2">
+          <div class="col-6 col-md-3 col-xl-2">
             <span>
               <i class="fas fa-utensils">&nbsp;<p id="recipe-icons">30 waffles</p></i>
             </span>
           </div>
-          <div class="col-md-1 col-lg-2"></div>
+          <div class="col-md-1 col-xl-2"></div>
         </div>
       </div>
       <!-- Food Image -->
       <div class="row">
-        <div class="col-lg-2 col-md-1"></div>
-        <div class="col-lg-8 col-md-10 col-sm-12">
-          <img src="https://img.chefkoch-cdn.de/rezepte/662351168076093/bilder/703137/crop-960x640/geheimes-waffelrezept.jpg" alt="vegan bowl" class="img-fluid"/>
+        <div class="col-md-1 col-xl-2 "></div>
+        <div class="col-sm-12 col-md-10 col-xl-8 d-flex justify-content-center">
+          <img src="https://img.chefkoch-cdn.de/rezepte/662351168076093/bilder/703137/crop-960x640/geheimes-waffelrezept.jpg" alt="vegan waffles" class="img-fluid"/>
         </div>
-        <div class="col-lg-2 col-md-1"></div>
+        <div class="col-md-1 col-xl-2 "></div>
       </div>
 
       <!-- Ingredients -->
         <div class="row">
-          <div class="col-lg-2 col-md-1 col-sm-12"></div>
-            <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="col-sm-12 col-md-1 col-xl-2"></div>
+            <div class="col-sm-12 col-md-5 col-xl-3">
               <table class="table table-borderless mt-1">
                 <thead>
                   <tr>
@@ -109,7 +114,7 @@
               </table>
             </div>
             <!-- Directory Accordion -->
-          <div class="col-lg-5 col-md-5">
+          <div id="accordion" class="col col-md-5 col-xl-5">
             <p class="fw-bold mt-3">Method</p>
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
@@ -164,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-1"></div>
+          <div class="col-md-1 col-xl-2"></div>
         </div>
         
 
