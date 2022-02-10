@@ -36,35 +36,54 @@
   <body>
 
     <!-- Navbar -->
-    <header class="">
+    <header>
       <!-- Brand -->
-      <nav class="container-fluid navbar navbar-dark bg-dark">
-        <a class="navbar-brand text-light fs-1" href="#">FoodMasters</a>
-        <!-- Search Bar -->
-        <div class="d-flex flex-row font-h">
-          <div class="mx-3">
-            <form class="form-inline flex-row d-flex d-none d-md-block">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
-            <!-- Nav-links -->
-            <div
-              class="navbar-nav text-align-center d-flex flex-row fw-bold fs-3"
-            >
-              <a href="./" class="nav-item nav-link mx-1">Home</a>
-              <a href="" class="nav-item nav-link mx-1">Recepies</a>
-              <a href="" class="nav-item nav-link mx-1">Blog</a>
-              <a href="" class="nav-item nav-link mx-1">Favourites</a>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand text-light fs-1" href="#">FoodMasters</a>
+          <div class="d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <button class="btn btn-outline-success d-block d-md-none mx-2" type="submit">Login</button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="d-flex flex-column font-h">
+              <form class="navbar-search d-flex d-none d-md-block">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- <button class="btn btn-outline-success" type="submit">Login</button> -->
+              </form>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Recipes
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="recipe-template.html">Recipe 1</a></li>
+                    <li><a class="dropdown-item" href="recipe-template.html">Recipe 2</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="recipe-template.html">Recipe 3</a></li>
+                    <li><a class="dropdown-item" href="recipe-template.html">Recipe 4</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Favourites</a>
+                </li>
+              </ul>
+
             </div>
           </div>
-          <button class="btn btn-outline-success my-sm-0">Login</button>
         </div>
+        <button class="btn btn-outline-success d-none d-md-block align-self-start mx-2" type="submit">Login</button>
       </nav>
-      <form class="form-inline flex-row d-flex d-block d-md-none">
+      <form class="form-inline flex-row d-flex d-block d-md-none m-2">
         <input
           class="form-control mr-sm-2"
           type="search"
