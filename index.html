@@ -37,7 +37,7 @@
     <!-- Navbar -->
     <header>
       <!-- Brand -->
-      <nav class="container-fluid navbar navbar-dark bg-dark">
+      <nav class="container-fluid navbar-expand-md justify-content-between navbar navbar-dark bg-dark">
         <a class="navbar-brand text-light fs-1" href="#">FoodMasters</a>
         <!-- Search Bar -->
         <div class="d-flex flex-row font-h">
@@ -51,15 +51,25 @@
               />
             </form>
             <!-- Nav-links -->
-            <div
-              class="navbar-nav text-align-center d-flex flex-row fw-bold fs-3"
-            >
-              <a href="" class="nav-item nav-link mx-1">Home</a>
-              <a href="" class="nav-item nav-link mx-1">Recepies</a>
-              <a href="" class="nav-item nav-link mx-1">Blog</a>
-              <a href="" class="nav-item nav-link mx-1">Favourites</a>
+            <button class="navbar-toggler mx-4 " type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class='collapse navbar-collapse' id="navbarSupportedContent">
+              <ul 
+                class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Recepies</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Favourites</a></li>
+              </ul>
             </div>
           </div>
+          
           <button class="btn btn-outline-success my-sm-0">Login</button>
         </div>
       </nav>
