@@ -3,6 +3,8 @@
  */
 window.addEventListener("load", function(event) {
     console.log('seite fertig geladen');
+
+    this.document.getElementById('btn-step-1').click()
 })
 
 /**
