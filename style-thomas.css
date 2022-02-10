@@ -4,6 +4,32 @@
 }
 /* ######### temp end! */
 
+.color-scheme {
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+}
+
+.scheme-red {
+  background: red;
+}
+
+.scheme-green {
+  background: green;
+}
+
+.scheme-darkgreen {
+  background: rgb(42, 48, 9, .85);
+}
+
+.scheme-blue {
+  background: blue;
+}
+
+.scheme-gray {
+  background: gray;
+}
+
 .carousel-section {  
   /* background: linear-gradient(to left top, #501616, #140f3d); */
   background: linear-gradient(to left top, var(--clr-primary-light-middle), var(--clr-primary-dark));
