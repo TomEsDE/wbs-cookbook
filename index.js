@@ -36,3 +36,22 @@ function loadFile(path, type) {
     }
     document.getElementsByTagName("head")[0].appendChild(fileref);
   }
+
+  /**
+   * Alert bei Click auf Login
+   * @param 
+   * @output 
+   */
+
+   const login = document.querySelector("#loginAlert");
+console.log(login);
+
+   login.addEventListener("click", function (event)
+   {
+     alert('A balanced diet is a cookie in each hand.');
+   }
+   )
+
+   const greating = () => {
+    alert('A balanced diet is a cookie in each hand.');
+   }
