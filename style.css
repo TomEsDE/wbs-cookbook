@@ -96,14 +96,6 @@ footer svg.bi-geo-alt > path, footer svg.bi-telephone > path{
 
 footer p {
   color: white;
-<<<<<<< HEAD
-  font-family: var(--font-playfair);
-}
-
-footer p.h4 {
-  font-family: var(--font-roboto);
-  font-weight: bold;
-=======
   font-family: var(--font-roboto);
   font-size: 0.75rem;
   margin-bottom: 0.2rem;
@@ -126,7 +118,6 @@ footer button#sendButton{
   color: white;
   border: 1px solid white;
   margin-left: 5px;
->>>>>>> origin/main
 }
 /* Styling Lydia End */
 
