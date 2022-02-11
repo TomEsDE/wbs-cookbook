@@ -132,7 +132,7 @@ footer button#sendButton{
   
   .accordion-button:not(.collapsed) {
     color: white;
-    background-color: rgba(67, 138, 56, 0.808);
+    background: var(--clr-primary-dark);
     
   }
   
