@@ -4,7 +4,13 @@
 window.addEventListener("load", function(event) {
     console.log('seite fertig geladen');
 
-    this.document.getElementById('btn-step-1').click()
+    // accordion step-1 'clicken'
+    // this.document.getElementById('btn-step-1').click()
+    // mit jquery
+    $('#btn-step-1').click()
+    
+    // cookie auslesen und ausgewaehltes Farbschema anwenden
+    if(Cookies.get("colors")) changeColor(Cookies.get("colors")); 
 })
 
 /**
@@ -14,7 +20,11 @@ window.addEventListener("load", function(event) {
  */
 function changeColor(cssFileName) {
     console.log(`changeColor : ${cssFileName}`);
+
     loadFile(`./color-schemes/${cssFileName}.css`, 'css')
+    
+    // merken im Cookie
+    Cookies.set("colors", cssFileName); 
 }
 
 /**
